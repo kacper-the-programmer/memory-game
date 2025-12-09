@@ -33,8 +33,3 @@ div {
 #hitbox {
     visibility: collapse;
 }
-
-.big {
-    size: 1.25%;
-    transition: 0.5s;
-}

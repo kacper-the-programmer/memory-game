@@ -48,7 +48,6 @@ class Memory {
         }
 
         document.body.appendChild(table);
-
     }
 
     reset() {
@@ -83,7 +82,6 @@ class Memory {
                         });
                     }, 500);
                 }
-
             }
         }
     }
