@@ -1,0 +1,40 @@
+div {
+    background-color: black;
+    width: 100px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    user-select: none;
+    visibility: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#front {
+    transition: 0.5s;
+    color: black;
+    background-color: blue;
+}
+
+#back {
+    transition: 0.5s;
+    transform: scaleX(-1);
+    background-color: black;
+    color: black;
+}
+
+#back:hover {
+    border: 5px solid blue;
+    transition: 0.25s;
+}
+
+#hitbox {
+    visibility: collapse;
+}
+
+.big {
+    size: 1.25%;
+    transition: 0.5s;
+}

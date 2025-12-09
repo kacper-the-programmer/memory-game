@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>memory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+        <p>
+            width: <input type="number" id="width" value="6"> 
+            height: <input type="number" id="height" value="5"> 
+            &ThickSpace;
+            <input type="button" value="start" , onclick="game.reset()">
+        </p>
+    </header>
+
+    <!-- <input type="button" onclick="game.set_all_to('front')" value="front"><input type="button" onclick="game.set_all_to('back')" value="back"> -->
+
+    <h1 id="points">placeholder</h1>
+    <table id="table"></table>
+    <script>
+        game.init();
+    </script>
+</body>
+</html>
